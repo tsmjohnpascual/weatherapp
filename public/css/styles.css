@@ -12,16 +12,19 @@ h1 {
     font-size: 6rem;
     margin: 0;
     color: black;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h2 {
     font-size: 3rem;
     color: black;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 p {
     font-size: 2rem;
     color: black;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .container {
@@ -34,6 +37,7 @@ p {
 input {
     border: 2px solid #C8B6E2;
     padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .searchButton {
