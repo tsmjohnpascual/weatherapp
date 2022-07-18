@@ -99,11 +99,6 @@ app.post("/", (req, res) => {
 
 // }
 
-app.listen(3000, () => {
-    console.log("Server is running on port 3000.")
-})
-
-
 // function to make the first letter of a string capital
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -116,3 +111,7 @@ function getTime (time) {
     let formattedTime = `${hours}:${minutes.substr(-2)}`
     return formattedTime
 }
+
+app.listen(3000, () => {
+    console.log("Server is running on port 3000.")
+})
