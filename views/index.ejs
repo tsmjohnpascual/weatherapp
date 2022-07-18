@@ -15,9 +15,9 @@
     
     <div class="container">
             <div class="currentLocationBox">
-                <h2>London</h2>
-                <h1>29°</h1>
-                <p>Sunny</p>
+                <h2> <%= currentCity %>, <%= currentCountry %> </h2>
+                <h1><%= currentTemp %>°</h1>
+                <p><%= currentWeatherDescription %></p>
             </div>
             <div class="searchBarBox">
                 <form action="/" method="post" class="searchBar">
